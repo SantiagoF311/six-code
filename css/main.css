@@ -2,6 +2,9 @@
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-evenly;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contacts__card {
   box-sizing: border-box;
@@ -10,6 +13,9 @@
   height: 538px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
+}
+.contacts__card > .footer__container {
+  order: 1;
 }
 .contacts__title {
   box-sizing: border-box;
@@ -52,6 +58,7 @@
 }
 
 .contacts__description {
+  position: relative;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -60,8 +67,15 @@
   color: #907E82;
 }
 
+.contacts__line {
+  position: absolute;
+  display: inline;
+  margin-bottom: 20px;
+}
+
 .contacts__days {
   display: block;
+  padding-top: 20px;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -79,6 +93,11 @@
 }
 
 .contacts__link {
+  position: relative;
+  padding-top: 40px;
+}
+.contacts__link1 {
+  display: block;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -86,8 +105,20 @@
   color: #907E82;
   text-decoration: none;
 }
+.contacts__link1:hover {
+  color: #D41443;
+  cursor: pointer;
+}
 
 .footer {
+  max-width: 1200px;
+  height: 890px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -450px;
+  padding-top: 450px;
+}
+.footer__container {
   background-color: #FFF5F6;
 }
 .footer2 {
@@ -170,7 +201,6 @@
 
 .footer__contact {
   display: block;
-  justify-content: flex-end;
   margin-top: 120px;
 }
 .footer__contact-title {
@@ -192,27 +222,84 @@
 }
 
 .footer__socialmedia-icon {
-  box-sizing: border-box;
-  margin-right: 30px;
+  margin-left: 30px;
   margin-bottom: 40px;
-  padding: 1px;
-  width: 34px;
-  height: 34px;
   background: #FFA5BA;
-  border-radius: 30px;
+  border-radius: 50px;
   fill: #FFFFFF;
+}
+.footer__socialmedia-icon:hover {
+  background: #D41443;
   cursor: pointer;
 }
 
+.footer__line {
+  position: absolute;
+  margin-top: 60px;
+  width: 1167px;
+  left: 17px;
+}
+
 .footer__copyright {
-  display: block;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.02em;
   color: #907E82;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.footer__modal {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  padding: 50px;
+  margin-top: 10%;
+  margin-left: 425px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.footer__closebutton {
+  position: absolute;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  right: 12px;
+  top: 12px;
+  background: #FFFFFF;
+  border: 2px solid #D41443;
+  border-radius: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: #D41443;
+}
+.footer__closebutton:hover {
+  cursor: pointer;
+  background: #D41443;
+  color: #FFFFFF;
+}
+.footer__map {
+  border: 1px solid #D41443;
+  border-radius: 24px;
 }
 
 /*# sourceMappingURL=main.css.map */
