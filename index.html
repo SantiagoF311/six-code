@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-
+    <title>Ice cream made with passion</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  
 <body>
     <main>
         <section class="about__container">        
@@ -156,40 +162,97 @@
               </div>
             </address>
           </div>
-        </section>
-      
-        <div class="backdrop is-hidden" data-footer-modal1>
-          <div class="footer__modal">
-            <button class="footer__closebutton" data-footer-modal1-close>
-              X</button
-            ><iframe
-              class="footer__map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2043.0033957170099!2d-87.63068245989226!3d41.808820355348736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ea5994ba51f%3A0xa7bb5c6b9a9109b!2s147%20W%2047th%20St%2C%20Chicago%2C%20IL%2060609%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1669420279011!5m2!1ses!2sco"
-              width="400"
-              height="300"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        </address>
+      </div>
+    </section>
+
+    <div class="backdrop is-hidden" data-footer-modal1>
+      <div class="footer__modal">
+        <button class="footer__closebutton" data-footer-modal1-close>X</button>
+        <p class="footer__modal-tittle">We be glad to see you</p>
+        <iframe
+          class="footer__map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2043.0033957170099!2d-87.63068245989226!3d41.808820355348736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ea5994ba51f%3A0xa7bb5c6b9a9109b!2s147%20W%2047th%20St%2C%20Chicago%2C%20IL%2060609%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1669420279011!5m2!1ses!2sco"
+          width="400"
+          height="300"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p class="footer__modal-address">1147W 47th St, 60609</p>
+        <div class="footer__modal-button">
+          <button class="footer__modal-button1">
+            <a
+              class="footer__modal-button-a"
+              href="https://www.google.com/maps?ll=41.808534,-87.629584&z=16&t=m&hl=es&gl=CO&mapclient=embed&q=147+W+47th+St+Chicago,+IL+60609+EE.+UU."
+              target="_blank"
+            >
+              Open in Google Maps
+            </a>
+          </button>
         </div>
-      
-        <div class="backdrop is-hidden" data-footer-modal2>
-          <div class="footer__modal">
-            <button class="footer__closebutton" data-footer-modal2-close>
-              X</button
-            ><iframe
-              class="footer__map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d694.8300947762993!2d-118.3519471028919!3d34.064705671953064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9216368532d%3A0xbbdf2db3489da00e!2s601%20Hauser%20Blvd%2C%20Los%20Angeles%2C%20CA%2090036%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1669425050280!5m2!1ses!2sco"
-              width="400"
-              height="300"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+      </div>
+    </div>
+
+    <div class="backdrop is-hidden" data-footer-modal2>
+      <div class="footer__modal">
+        <button class="footer__closebutton" data-footer-modal2-close>X</button>
+        <p class="footer__modal-tittle">
+          Leave your details and we will call you back
+        </p>
+
+        <form name="order">
+          <div class="pos-relative">
+            <label class="form__label" for="input-name"> Name </label>
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              id="input-name"
+              required
+            />
           </div>
-        </div>
+          <div class="pos-relative">
+            <label class="form__label" for="input-phone"> Number </label>
+            <input
+              class="form__input"
+              type="tel"
+              name="tel"
+              id="input-phone"
+              required
+            />
+          </div>
+          <div class="pos-relative">
+            <label class="form__label" for="input-email"> Email </label>
+            <input
+              class="form__input"
+              type="email"
+              name="email"
+              id="input-email"
+              required
+            />
+          </div>
+          <div class="pos-relative">
+            <label class="form__label" for="input-coments">
+              Describe your order
+            </label>
+            <textarea
+              class="form__textarea"
+              name="coments"
+              rows="5"
+              id="input-coments"
+              placeholder="Type here..."
+            ></textarea>
+          </div>
+          <div class="footer__modal-button">
+            <button class="footer__submit-button" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+        </section
     </main>
+    
     <!-- Pie de página -->
     <footer class="footer__container">
       <div class="footer">
@@ -243,10 +306,10 @@
                 </svg>
               </a>
             </div>
-              <span class="footer__contact-title">Feel free to contact</span>
-              <a class="footer__contact-number" href="tel:+610383766284"
-                >+61(0) 383 766 284</a
-              >
+            <span class="footer__contact-title">Feel free to contact</span>
+            <a class="footer__contact-number" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
           </div>
         </div>
         <svg class="footer__line">
@@ -258,6 +321,5 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
-
   </body>
 </html>
