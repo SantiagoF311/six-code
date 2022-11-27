@@ -1,0 +1,17 @@
+//svg animation
+
+.advantajes__container__item__svg__icon--animation {
+    animation-name: advantajes__container__item__svg__icon;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+
+@keyframes advantajes__container__item__svg__icon {
+
+    0% {
+        rotate: -360deg;
+    }
+}
+
+
+
