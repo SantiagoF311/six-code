@@ -1,3 +1,288 @@
+body {
+  font-family: "Titan One", "DM Sans";
+  font-style: normal;
+  background-color: #E5E5E5;
+}
 
+.about__container {
+  margin-top: 1053px;
+  height: 1190px;
+  background-color: #FFF5F6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 534px;
+  height: 116px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.about__titles__subtitle {
+  width: 1000px;
+  height: 34px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFA5BA;
+}
+
+.about__titles__title {
+  width: 1000px;
+  height: 66px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+.about__howitsmade {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 521px;
+}
+
+.about__howitsmade__leche {
+  position: absolute;
+  z-index: 100;
+}
+
+.about__howitsmade__vaca {
+  margin-left: 16px;
+  z-index: 200;
+}
+
+.about__howitsmade__texts__section {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  z-index: 200;
+  text-align: start;
+}
+
+.about__howitsmade__text1 {
+  position: relative;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  top: 52px;
+  left: 99px;
+  margin: 0;
+}
+
+.about__howitsmade__text2 {
+  position: relative;
+  margin-top: 32px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #907E82;
+  top: 83px;
+  left: 99px;
+  margin: 0;
+}
+
+.about__howitsmade__text3 {
+  position: relative;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #907E82;
+  height: 30px;
+  top: 117px;
+  left: 99px;
+  margin: 0;
+}
+
+.about__howitsmade__button {
+  position: relative;
+  width: 176px;
+  height: 44px;
+  margin-top: 158px;
+  margin-left: 99px;
+  background-color: #FFFFFF;
+  color: #D41443;
+  border-radius: 22px;
+  border-style: none;
+  z-index: 200;
+}
+
+.advantajes__container {
+  display: flex;
+  justify-content: center;
+  height: 517px;
+  margin-top: 30px;
+}
+
+.advantajes__container__item {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+}
+
+.advantajes__container__item1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  width: 288px;
+  height: 270px;
+}
+
+.advantajes__container__item2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 115px;
+  width: 288px;
+  height: 270px;
+}
+
+.advantajes__container__item3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 115px;
+  width: 288px;
+  height: 270px;
+}
+
+.advantajes__container__item__svg {
+  width: 40px;
+  height: 60px;
+  margin-left: 16px;
+  margin-bottom: 40px;
+}
+
+.advantajes__container__item__svg__icon1 {
+  width: 40px;
+  fill: #FFA5BA;
+}
+
+.advantajes__container__item__svg__icon2 {
+  width: 60px;
+  fill: #FFA5BA;
+}
+
+.advantajes__container__item__svg__icon3 {
+  width: 55px;
+  fill: #FFA5BA;
+}
+
+.advantajes__container__item__text {
+  width: 98px;
+  height: 65px;
+  margin-top: 40px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+.advantajes__container__item__text2 {
+  width: 288px;
+  height: 52px;
+  margin-top: 8px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.about__titles--hover:hover {
+  letter-spacing: 0.7em;
+  transition: 1.5s;
+}
+
+.about__howitsmade__vaca--hover:hover {
+  rotate: 360deg;
+  transition: 13s;
+}
+
+.about__howitsmade__button--hover:hover {
+  background: #ECEBEB;
+  width: 188px;
+  height: 50px;
+}
+
+.about__howitsmade__button--hover:focus {
+  background: #ECEBEB;
+  width: 188px;
+  height: 50px;
+}
+
+.about__howitsmade__text1--hover:hover {
+  top: 45px;
+  left: 70px;
+  width: 650px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+}
+
+.about__howitsmade__text2--hover:hover {
+  top: 76px;
+  left: 70px;
+  width: 700px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+}
+
+.about__howitsmade__text3--hover:hover {
+  top: 110px;
+  left: 70px;
+  width: 650px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+}
+
+.advantajes__container__item:hover .advantajes__container__item--hover {
+  rotate: 360deg;
+  transition: 2s;
+}
+
+.advantajes__container__item__svg__icon--animation {
+  animation-name: advantajes__container__item__svg__icon;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+}
+
+@keyframes advantajes__container__item__svg__icon {
+  0% {
+    rotate: -360deg;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
