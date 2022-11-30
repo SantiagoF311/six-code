@@ -1,0 +1,103 @@
+@media screen and (max-width: 778px) {
+ 
+        //Titulos de "about"
+    
+        .about__titles__subtitle {                        
+            font-size: 28px;
+            margin-bottom: 2px;
+        }
+    
+        .about__titles__title {
+            font-size: 48px;
+            margin-top: 2px;
+        }
+
+
+        //About how it´s made
+    
+        .about__howitsmade {
+            height: 400px;
+        }
+    
+        .about__howitsmade__leche {
+            display: none;
+        }
+    
+        .about__howitsmade__vaca {
+            width: 336px;
+            height: 336px;
+            margin-right: 0;
+        }
+    
+        .about__howitsmade__texts__section {
+            width: 334px;
+            height: 420px;
+        }
+    
+        .about__howitsmade__text1 {
+            padding-right: 34px;
+            font-size: 14px;
+            line-height: 25px;
+            top: -20px;
+            left: 30px;
+        }
+    
+        .about__howitsmade__text2 {    
+            padding-right: 34px;
+            font-size: 14px;
+            line-height: 25px;
+            top: -5px;
+            left: 30px;
+        }
+    
+        .about__howitsmade__text3 {   
+            padding-right: 34px;               
+            font-size: 14px;
+            line-height: 25px;         
+            top: 10px;
+            left: 31.5px; 
+        }
+    
+        //About how it´s made button
+    
+        .about__howitsmade__button {
+            margin-top: 35px;
+            margin-left: 22.5px;
+        }
+    
+        //Advantajes
+    
+        .advantajes__container {
+            margin-top: 0;
+        }
+    
+        .advantajes__container__item1 {
+            padding-left: 0;
+            margin-left: 32px;
+        }
+    
+        .advantajes__container__item2 {     
+            margin-left: 4px;
+        }
+    
+        .advantajes__container__item3 {     
+            margin-left: 22px;
+        }
+    
+        .advantajes__container__item__svg {
+            margin-left: 32px;
+        }    
+    
+        .advantajes__container__item__text {      
+            font-size: 48px;
+            line-height: 55px;
+        }
+    
+        .advantajes__container__item__text2 {
+            width: 200px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    
+}
+

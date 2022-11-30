@@ -1,0 +1,53 @@
+@media screen and (max-width: 778px) {
+
+        //Imagen vaca
+        .about__howitsmade__vaca--hover:hover {
+            rotate: 360deg;
+            transition: 13s;
+        }
+
+
+        //button
+        .about__howitsmade__button--hover:hover {
+            background: #ECEBEB;
+            width: 188px;
+            height: 50px;
+        }
+
+        .about__howitsmade__button--hover:focus {
+            background: #ECEBEB;
+            width: 188px;
+            height: 50px;
+        }
+}
+
+@media screen and (min-width: 710px) {
+
+    //Titles
+    .about__titles--hover:hover {
+        letter-spacing: 0.25em;
+        transition: 1.5s;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    //Titles
+    .about__titles--hover:hover {
+        letter-spacing: 0.15em;
+        transition: 1.5s;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+
+    //Titles
+    .about__titles--hover:hover {
+        letter-spacing: 0.1em;
+        transition: 1.5s;
+    }
+
+}
+
