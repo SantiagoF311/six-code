@@ -1,7 +1,10 @@
 
 .footer{
+    text-align: center;
     max-width: 1200px;
-    height: 890px; 
+    min-width: 250px;
+    max-height: 1513px;
+    min-height: 877px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -450px;
@@ -18,7 +21,9 @@
 .footer__button{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 60px;
+    
     
     &1{
         background: $secondary-color;
@@ -27,6 +32,7 @@
         width: 198px;
         height: 44px;
         border-radius: 22px;
+        margin-top: 10px;
         
         font-family: $font-family-primary;
         font-weight: 700;
@@ -46,11 +52,14 @@
     }
 
     &2{
+        display: flex;
+        flex-wrap: wrap;
         background: $secondary-color;
         border: none;
         width: 168px;
         height: 44px;
         border-radius: 22px;
+        margin-top: 10px;
         
         font-family: $font-family-primary;
         font-weight: 700;
@@ -86,7 +95,6 @@
     }
 
     &2{
-        
         font-family: $font-family-secondary;
         font-weight: 400;
         font-size: 58px;
@@ -97,11 +105,27 @@
     }
 }
 
-.footer__contact{
-        display: block;
-        margin-top: 120px;
-    
+.footer__socialmedia-icon{
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 34px; 
+    height: 34px; 
+    background: $tertiary-color;
+    border-radius: 50px;
+    fill: $secondary-color;
 
+    &:hover{
+        background:$primary-color;
+        cursor: pointer;
+    }  
+}
+
+.footer__contact{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        width: 319px;
+    
     &-title{
         font-family: $font-family-primary;
         font-weight: 700;
@@ -122,31 +146,20 @@
 
     }
 }
-.footer__socialmedia-icon{
-        margin-left: 30px;
-        margin-bottom: 40px;
-        background:$tertiary-color;
-        border-radius: 50px;
-        fill: $secondary-color;
 
-        &:hover{
-            background:$primary-color;
-            cursor: pointer;
-        }
-        
-}
 
 .footer__line{
-    position: absolute;
-    margin-top: 60px;
-    width: 1167px;
-    left: 17px;
+    position: relative;
+    margin-top: 30px;
+    width: 1197px;
 }
 
 .footer__copyright{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    flex-wrap: wrap;
+    margin-top: -147px;
+    
     font-family: $font-family-primary;
     font-weight: 700;
     font-size: 14px;
