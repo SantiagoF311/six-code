@@ -1,19 +1,24 @@
 .footer__container{
     background-color: $quartenary-color;
+    max-height: 1513px;
+    min-height: 877px;
 }
 
 .contacts{
-    
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 120px;
+    min-width: 250px;
     
 
     &__card{
         background-color: $secondary-color;
         box-sizing: border-box;
+        margin-top: 20px;
         padding: 40px;
         width: 368px;
         height: 538px;
