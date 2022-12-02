@@ -1,7 +1,12 @@
 @import 'utils/variables.scss';
 @import 'components/body';
 @import 'components/about';
-@import 'components/about__hover';     
+@import 'components/about__hover';
+@import 'components/about__1330px';
+@import 'components/_about__1330px__hover';
+@import 'components/about__778px';
+@import 'components/about__778px__hover';
+@import 'components/about__684px';
 @import 'components/about__animation';
 @import 'components/contacts.scss';
 @import 'components/footer.scss';

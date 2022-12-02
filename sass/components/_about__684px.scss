@@ -1,0 +1,85 @@
+@media screen and (max-width: 684px) {
+
+    //Titulos de "about"
+
+    .about__titles__subtitle {
+        width: 300px;
+        margin-top: 0;
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 0.04em;
+    }
+
+    .about__titles__title {
+        width: 220px;
+        margin-top: 15px;
+        font-size: 38px;
+        line-height: 38px;
+        letter-spacing: 0.04em;
+    }
+
+    //About how it´s made
+
+    .about__container {
+            margin-top: 1053px;
+            height: 1900px;
+            background-color: $quartenary-color;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    .about__howitsmade {
+            display: flex;
+            justify-content: center;
+            height: 521px;
+        }
+
+
+    .about__howitsmade__vaca {
+       width: 400px;
+       height: 400px;
+       padding-right: 30px;
+    }
+
+    .about__howitsmade__texts__section {
+        width: 400px;
+        height: 420px;
+    }
+
+    .about__howitsmade__text1 {
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+    .advantajes__container {
+        display: flex;
+        justify-content: center;
+        height: 517px;
+        margin-top: 400px;
+    }
+
+    .advantajes__container__item {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .advantajes__container__item1 {      
+        margin-left: 0;    
+    }
+
+    .advantajes__container__item2 {       
+        margin-left: 0;      
+    }
+
+    .advantajes__container__item3 { 
+        margin-left: 0;
+    }
+
+    .advantajes__container__item__text {
+        margin-left: 0px;
+    }
+}

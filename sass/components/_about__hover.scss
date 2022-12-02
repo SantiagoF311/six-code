@@ -1,67 +1,74 @@
-
-//Titles
-.about__titles--hover:hover {
-    letter-spacing: 0.7em;
-    transition: 1.5s;
-}
-
-
-//Imagen vaca
-.about__howitsmade__vaca--hover:hover {
-    rotate: 360deg;
-    transition: 13s;
-}
-
-
-//button
-.about__howitsmade__button--hover:hover {
-    background: #ECEBEB;
-    width: 188px;
-    height: 50px;
-}
-
-.about__howitsmade__button--hover:focus {
-    background: #ECEBEB;
-    width: 188px;
-    height: 50px;
-}
-
-//About how it´s made texts
-
-.about__howitsmade__text1--hover:hover {
-    top: 45px;
-    left: 70px;
-    width: 650px;
-    font-size: 17px;
-    line-height: 30px;
-    letter-spacing: 0.08em;
-}
-
-.about__howitsmade__text2--hover:hover {
-    top: 76px;
-    left: 70px;
-    width: 700px;
-    font-size: 17px;
-    line-height: 30px;
-    letter-spacing: 0.08em;
-}
-
-.about__howitsmade__text3--hover:hover {
-    top: 110px;
-    left: 70px;
-    width: 650px;
-    font-size: 17px;
-    line-height: 30px;
-    letter-spacing: 0.08em;
-}
-
-//Advantages container item
-
-.advantajes__container__item:hover .advantajes__container__item--hover {
-    rotate: 360deg;
-    transition: 2s;
+@media  screen and (min-width: 800px) {
+  
+        //Imagen vaca
+        .about__howitsmade__vaca--hover:hover {
+            rotate: 360deg;
+            transition: 13s;
+        }
+    
+    
+        //button
+        .about__howitsmade__button--hover:hover {
+            background: #ECEBEB;
+            width: 188px;
+            height: 50px;
+        }
+    
+        .about__howitsmade__button--hover:focus {
+            background: #ECEBEB;
+            width: 188px;
+            height: 50px;
+        }
+    
+        //Advantages container item
+    
+        .advantajes__container__item:hover .advantajes__container__item--hover {
+            rotate: 360deg;
+            transition: 2s;
+    
+        }
     
 }
+
+@media screen and (min-width: 1331px) {
+    
+    //Titles
+        .about__titles--hover:hover {
+            letter-spacing: 0.7em;
+            transition: 1.5s;
+        }
+
+    //About how it´s made texts
+
+    .about__howitsmade__text1--hover:hover {
+        top: 45px;
+        left: 70px;
+        width: 650px;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.08em;
+    }
+
+    .about__howitsmade__text2--hover:hover {
+        top: 76px;
+        left: 70px;
+        width: 700px;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.08em;
+    }
+
+    .about__howitsmade__text3--hover:hover {
+        top: 110px;
+        left: 70px;
+        width: 650px;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.08em;
+    }
+}
+
+
 
 
 

@@ -2,6 +2,7 @@
 .about__container {
     margin-top: 1053px;
     height: 1190px;
+    width: 100%;
     background-color: $quartenary-color;
     margin-left: auto;
     margin-right: auto;
@@ -14,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 534px;
+    width: 100%;
     height: 116px;
     padding-top: 100px;
     margin-left: auto;
@@ -74,7 +75,6 @@
     width: 600px;
     height: 400px;
     z-index: 200;
-    text-align: start;
 }
 
 .about__howitsmade__text1 {
@@ -86,7 +86,7 @@
     letter-spacing: 0.04em;
     color: $color-text-primary;
     top: 52px;
-    left: 99px;
+    left: 85px;
     margin: 0;
 }
 
@@ -101,7 +101,7 @@
     letter-spacing: 0.04em;
     color: $color-text-secondary;
     top: 83px;
-    left: 99px;
+    left: 85px;
     margin: 0;
 }
 
@@ -116,7 +116,7 @@
     color: $color-text-secondary;
     height: 30px;
     top: 117px;
-    left: 99px;
+    left: 85px;
     margin: 0;
 }
 
@@ -147,7 +147,7 @@
 .advantajes__container__item {
     display: flex;
     justify-content: center;
-    width: 1100px;
+    width: 100%;
 }
 
 .advantajes__container__item1 {
