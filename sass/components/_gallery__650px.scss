@@ -1,0 +1,35 @@
+@media screen and (max-width: 650px) {
+
+    .gallery__container {
+            margin-top: -180px;
+            margin-bottom: -90px;
+        }
+    
+        .gallery__container__images__img {
+            width: 320px;
+            height: 136px;
+        }
+    
+        .costumer__review {
+            margin-top: 60px;
+        }
+    
+        .costumer__review__text {
+            font-size: 14px;
+            padding-right: 55px;
+            padding-left: 55px;
+        }
+    
+        .costumer__review__text__container {
+            margin-top: 32px;
+            width: 280px;
+            height: 308px;
+           
+        }
+
+        .giratoria_grupo_casa {
+            margin-top: -40px;
+        }
+
+                
+}

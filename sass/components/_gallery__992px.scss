@@ -1,0 +1,28 @@
+@media screen and (max-width: 992px) {
+
+    .gallery__container {
+        margin-top: -124px;
+        margin-bottom: -70px;
+    }
+
+    .gallery__container__images__img {
+            width: 768px;
+            height: 327px;
+        }
+
+    .costumer__review {
+        margin-top: 60px;
+    }
+
+    .costumer__review__text {
+        font-size: 14px;
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+
+    .costumer__review__text__container {
+        margin-top: 20px;
+        width: 620px;
+        height: 164px;
+    }
+}
